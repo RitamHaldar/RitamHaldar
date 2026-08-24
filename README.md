@@ -37,10 +37,10 @@
   <tr>
     <td width="65%" valign="top">
       <p>
-        I am a <b>Full-Stack Software Engineer</b> specializing in architecting end-to-end <b>MERN & Next.js applications</b>, from reactive frontend user experiences to distributed <b>Node.js/Express microservices</b>.
+        I am a <b>Full-Stack Software Engineer</b> specializing in architecting end-to-end <b>MERN & Next.js applications</b>, from reactive frontend user interfaces to distributed <b>Node.js/Express microservices</b>.
       </p>
       <p>
-        I possess deep hands-on expertise with <b>Kubernetes-orchestrated container clusters</b>, <b>AWS cloud infrastructure</b>, enterprise security frameworks (<b>JWT, Google OAuth 2.0, RBAC</b>), and cutting-edge <b>LangChain-powered AI features & RAG pipelines</b> — gained through independently designing, engineering, and deploying production-grade distributed applications.
+        I possess deep hands-on expertise with <b>Kubernetes-orchestrated container clusters</b>, <b>AWS cloud infrastructure</b>, enterprise security frameworks (<b>JWT, Google OAuth 2.0, RBAC</b>), and cutting-edge <b>LangChain-powered AI features & RAG pipelines</b> — gained through independently designing, building, and deploying full-stack applications.
       </p>
       <p>
         🔭 <b>What I Focus On:</b> High-throughput microservices, sub-second vector search & RAG workflows, WebSocket-streamed real-time interfaces, and resilient cloud-native backend systems.
@@ -65,117 +65,6 @@
     </tr>
   </table>
 </div>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%" alt="divider" />
-</p>
-
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- 🚀  FEATURED PROJECTS                                                         -->
-<!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-
-## 🚀 Featured Projects
-
----
-
-### ⚡ 01. FrameForge — Cloud IDE & Containerized AI Sandbox Platform
-<p>
-  <b>Sole Full-Stack Developer</b> &nbsp;|&nbsp; 🗓️ <i>May 2026 – Jun 2026</i> &nbsp;|&nbsp; 
-  <a href="https://github.com/RitamHaldar" target="_blank"><b>View on GitHub ↗</b></a>
-</p>
-
-> **A high-performance cloud IDE and isolated multi-tenant execution sandbox featuring real-time collaborative coding, AI-assisted code completion, and dynamic Kubernetes pod provisioning.**
-
-```
-React 19 • Node.js • Express.js • MongoDB • Kubernetes • Docker • Skaffold • RabbitMQ • AWS S3 • Socket.io • LangChain • Monaco Editor • Xterm.js • Redux Toolkit • Tailwind CSS v4
-```
-
-- 🖥️ **Cloud Sandbox & Intelligent IDE**: Engineered a full browser-based IDE using **React 19**, **Redux Toolkit**, **Monaco Editor** (with AI inline code completions via **Mistral Codestral**), and **Xterm.js** interactive terminals.
-- ☸️ **Kubernetes Microservices Architecture**: Architected a **7-service Kubernetes backend** using **Skaffold**, dynamically provisioning isolated per-user pods (`500m CPU / 1Gi RAM`) via `@kubernetes/client-node` and delivering live web terminals (`node-pty`, **Socket.io**) in just **3.6s**.
-- 🔄 **Multi-Container Hot-Reload**: Integrated live multi-container build & hot-reload pipelines managed across **8 Dockerized services**.
-- 🧠 **AI Pipelines & Cloud State Sync**: Built **LangChain** pipelines with **Zod validation** for automated AI component generation, WebSocket-streamed file modifications, and automated **AWS S3** workspace state synchronization.
-- 🔒 **Enterprise-Grade Security**: Secured the ecosystem using **JWT**, **Google OAuth 2.0**, **RBAC**, and asynchronous **RabbitMQ-decoupled** Gmail OTP verification.
-
-<details>
-  <summary><b>🔍 Key Performance & Architectural Metrics</b></summary>
-  <br/>
-  <table>
-    <tr>
-      <td>⚡ <b>3.6s</b> Terminal Launch Time</td>
-      <td>☸️ <b>7 Services</b> K8s Cluster</td>
-      <td>🐳 <b>8 Services</b> Multi-Container Pipeline</td>
-      <td>🤖 <b>Codestral</b> Inline AI Engine</td>
-    </tr>
-  </table>
-</details>
-
----
-
-### 📄 02. ResumeElite — Production AI Resume Builder & ATS Scoring Engine
-<p>
-  <b>Sole Full-Stack Developer</b> &nbsp;|&nbsp; 🗓️ <i>Jul 2026 – Aug 2026</i> &nbsp;|&nbsp; 
-  <a href="https://github.com/RitamHaldar" target="_blank"><b>Live Demo ↗</b></a> &nbsp;|&nbsp; 
-  <a href="https://github.com/RitamHaldar" target="_blank"><b>View on GitHub ↗</b></a>
-</p>
-
-> **An enterprise AI-driven resume engineering suite delivering real-time LaTeX compilation, deep ATS parsing, and LLM-powered optimization roadmaps.**
-
-```
-Next.js 16 • React 19 • TypeScript • Node.js • MongoDB • LangChain • NVIDIA AI API • Tailwind CSS v4 • JWT • Bcrypt • REST APIs • pdf-parse • Mammoth • Monaco Editor • LaTeX • Texify API
-```
-
-- ⚡ **Instant LaTeX-to-PDF Compilation**: Built on **Next.js 16**, **TypeScript**, and **MongoDB**, integrating the **Texify API** for lightning-fast real-time LaTeX compilation with a **1.68s average generation time**.
-- 🎯 **ATS Scoring & Multi-Format Parsing**: Designed an intelligent ATS parsing and grading pipeline using **LangChain** and **NVIDIA LLMs**, achieving **66.7% baseline precision** across **PDF, DOCX, TXT, and LaTeX** files with step-by-step optimization recommendations.
-- 🛠️ **8-Step Guided Workflow**: Developed an intuitive 8-stage resume crafting workflow integrated with an in-browser **Monaco LaTeX Editor** and high-throughput Node.js REST APIs.
-- 🚀 **Low Latency & Robust Security**: Achieved **97ms average API latency** with **sub-200ms P99** response times, fortified with **JWT authentication** and **Bcrypt** cryptographic password hashing.
-
-<details>
-  <summary><b>🔍 Key Performance & Architectural Metrics</b></summary>
-  <br/>
-  <table>
-    <tr>
-      <td>⚡ <b>1.68s</b> Avg PDF Generation</td>
-      <td>🚀 <b>97ms</b> Avg API Latency</td>
-      <td>📊 <b>< 200ms</b> P99 API Latency</td>
-      <td>🎯 <b>66.7%</b> Multi-Format ATS Match</td>
-    </tr>
-  </table>
-</details>
-
----
-
-### 🧠 03. Axion AI — Real-Time Multi-Model AI Research & RAG Platform
-<p>
-  <b>Full-Stack AI Engineer</b> &nbsp;|&nbsp; 🗓️ <i>Jan 2026 – Feb 2026</i> &nbsp;|&nbsp; 
-  <a href="https://github.com/RitamHaldar" target="_blank"><b>Live Demo ↗</b></a> &nbsp;|&nbsp; 
-  <a href="https://github.com/RitamHaldar" target="_blank"><b>View on GitHub ↗</b></a>
-</p>
-
-> **A real-time collaborative AI research platform featuring dynamic multi-model routing, chat-scoped vector retrieval (RAG), and ultra-low-latency response streaming.**
-
-```
-React.js • Redux Toolkit • Tailwind CSS v4 • Node.js • Express.js • MongoDB • Socket.io • JWT • LangChain • Pinecone • Google Gemini • Mistral AI • Tavily API • ImageKit • Multer • NodeMailer
-```
-
-- 🔀 **Multi-Model Orchestration**: Developed an AI research platform with the MERN stack and **LangChain**, seamlessly routing complex queries between **Google Gemini** and **Mistral AI** with mid-conversation model switching while maintaining context history.
-- ⚡ **Real-Time Token Streaming**: Streamed LLM completions via **Socket.io**, slashing **Time-To-First-Token (TTFT) by 70%** compared to standard REST architectures.
-- 📚 **RAG & Live Web Citations**: Integrated **Tavily API** for real-time web source citations and **Pinecone + LangChain RAG** for document-scoped PDF Q&A with an average **vector retrieval latency of 346ms**.
-- 🎨 **Responsive UI & Media Pipeline**: Crafted a modern **Tailwind CSS v4** dashboard with **Redux Toolkit** for real-time state management, filters, and media uploads powered by **ImageKit**, **Multer**, and **NodeMailer**.
-
-<details>
-  <summary><b>🔍 Key Performance & Architectural Metrics</b></summary>
-  <br/>
-  <table>
-    <tr>
-      <td>⚡ <b>70% Faster</b> TTFT (Socket.io)</td>
-      <td>🔍 <b>346ms</b> Vector Retrieval Latency</td>
-      <td>🌐 <b>Live Citations</b> (Tavily Search)</td>
-      <td>🔄 <b>Dual-LLM</b> Dynamic Routing</td>
-    </tr>
-  </table>
-</details>
-
-<br/>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100%" alt="divider" />
@@ -258,29 +147,12 @@ React.js • Redux Toolkit • Tailwind CSS v4 • Node.js • Express.js • Mo
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- 📊  GITHUB ANALYTICS & ACTIVITY                                              -->
+<!-- 📊  GITHUB ACTIVITY & STREAK                                                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-## 📊 Activity & Analytics
+## 📊 GitHub Activity & Streak
 
 <div align="center">
-  <table border="0" cellpadding="0" cellspacing="0">
-    <tr>
-      <td align="center" valign="middle">
-        <a href="https://github.com/RitamHaldar">
-          <img src="https://github-readme-stats.vercel.app/api?username=RitamHaldar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=94a3b8" alt="GitHub Stats" width="390" />
-        </a>
-      </td>
-      <td align="center" valign="middle">
-        <a href="https://github.com/RitamHaldar">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RitamHaldar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" width="350" />
-        </a>
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
   <a href="https://github.com/RitamHaldar">
     <img src="https://streak-stats.demolab.com?user=RitamHaldar&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=38bdf8&fire=38bdf8&currStreakLabel=38bdf8&sideLabels=c9d1d9&currStreakNum=c9d1d9&dates=8b949e&sideNums=c9d1d9" alt="GitHub Streak" width="750"/>
   </a>
