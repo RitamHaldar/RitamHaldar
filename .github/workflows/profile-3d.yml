@@ -1,0 +1,52 @@
+name: 🏙️ 3D Isometric Contribution Skyline
+
+on:
+  # Schedule daily update at midnight UTC
+  schedule:
+    - cron: "0 0 * * *"
+  
+  # Allow manual trigger via Actions tab
+  workflow_dispatch:
+  
+  # Trigger on push to main
+  push:
+    branches:
+      - main
+
+# Prevent concurrent runs on the same branch
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: 🏙️ Render 3D Contribution Graphs
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: 📥 Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🌌 Generate 3D Isometric Visualizations
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: 🚀 Commit & Push 3D Assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib/
+          if git diff --staged --quiet; then
+            echo "No changes in 3D contribution graphs"
+          else
+            git commit -m "chore(profile-3d): update isometric skyline assets [skip ci]"
+            git push
+          fi

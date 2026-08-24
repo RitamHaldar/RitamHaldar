@@ -147,10 +147,10 @@
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!-- 📊  GITHUB ACTIVITY & STREAK                                                 -->
+<!-- 📊  ACTIVITY & CONTRIBUTION VISUALIZATIONS                                   -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
-## 📊 GitHub Activity & Streak
+## 📊 Activity & Visualizations
 
 <div align="center">
   <a href="https://github.com/RitamHaldar">
@@ -160,9 +160,21 @@
 
 <br/>
 
-<!-- ─── SNAKE CONTRIBUTION ANIMATION ─────────────────────────────────────────── -->
+<!-- ─── 3D ISOMETRIC CONTRIBUTION SKYLINE ────────────────────────────────────── -->
 <div align="center">
-  <h3>⚡ Contribution Graph Stream</h3>
+  <h3>🏙️ 3D Isometric Contribution Skyline</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RitamHaldar/RitamHaldar/main/profile-3d-contrib/profile-night-rainbow.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RitamHaldar/RitamHaldar/main/profile-3d-contrib/profile-green-animate.svg" />
+    <img src="https://raw.githubusercontent.com/RitamHaldar/RitamHaldar/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Isometric Skyline" width="100%" />
+  </picture>
+</div>
+
+<br/>
+
+<!-- ─── CYBER SNAKE CONTRIBUTION ANIMATION ───────────────────────────────────── -->
+<div align="center">
+  <h3>⚡ Cyber Contribution Stream</h3>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RitamHaldar/RitamHaldar/output/github-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RitamHaldar/RitamHaldar/output/github-snake.svg" />
